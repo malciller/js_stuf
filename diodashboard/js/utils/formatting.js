@@ -54,7 +54,7 @@ export function formatTime(value) {
   let formatted = scaled.toFixed(decimals);
 
   // Remove trailing zeros after decimal
-  formatted = formatted.replace(/\.?0+$/, '');
+  formatted = formatted.replace(/\.0+$/, '');
 
   // Ensure we don't end up with just a decimal point
   if (formatted === '.') {
@@ -93,7 +93,7 @@ export function formatMemory(value) {
       }
 
       // Remove trailing zeros after decimal
-      formatted = formatted.replace(/\.?0+$/, '');
+      formatted = formatted.replace(/\.0+$/, '');
 
       return (value < 0 ? '-' : '') + formatted + ' ' + unit.name;
     }
@@ -189,7 +189,7 @@ export function formatValue(value, metricName, metric) {
     } else {
       // Default number formatting
       if (value % 1 === 0) return value.toString();
-      return value.toFixed(6).replace(/\.?0+$/, '');
+      return value.toFixed(6).replace(/\.0+$/, '');
     }
   }
 
