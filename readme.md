@@ -4,19 +4,19 @@ A modern, real-time monitoring dashboard built with vanilla JavaScript, HTML5, a
 
 ## Features
 
-### 📊 Real-time Monitoring
+### Real-time Monitoring
 - **Telemetry Metrics**: Gauge, counter, and histogram metrics with automatic updates
 - **System Monitoring**: CPU usage, memory statistics, and system health indicators
 - **Balance Tracking**: Asset balances and open trading orders
 - **Log Streaming**: Real-time log message display with filtering capabilities
 
-### 🎨 Interactive Dashboard
+### Interactive Dashboard
 - **Widget System**: Drag-and-drop widgets with customizable layouts
 - **Auto-layout**: Intelligent widget placement and grid management
 - **Persistent Configuration**: Dashboard state saved automatically in browser storage
 - **Context Menus**: Right-click menus for widget and canvas interactions
 
-### 🌐 Real-time Connectivity
+### Real-time Connectivity
 - **WebSocket Integration**: Live data streaming from backend services
 - **Automatic Reconnection**: Robust connection handling with fallback support
 - **Multi-stream Support**: Simultaneous monitoring of multiple data streams
